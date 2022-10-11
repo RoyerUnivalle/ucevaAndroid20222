@@ -8,7 +8,6 @@
     android:layout_gravity="center"
     android:gravity="center"
     tools:context=".Home">
-
     <EditText
         android:id="@+id/ed3"
         android:layout_width="match_parent"
@@ -16,7 +15,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="" />
-
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
@@ -27,14 +25,18 @@
         android:id="@+id/btnInterfaz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="goToMain"
         android:text="Interfaz" />
     <Button
         android:id="@+id/btnDelegado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="goToMain"
         android:text="Delegado" />
+    <Button
+        android:id="@+id/btnPintar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pintar"
+        android:text="pintar" />
     <!--<androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.example.loginuceva222.BlankFragment"
