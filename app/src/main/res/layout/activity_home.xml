@@ -37,6 +37,12 @@
         android:layout_height="wrap_content"
         android:onClick="pintar"
         android:text="pintar" />
+    <Button
+        android:id="@+id/btnServicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="iniciarServicio"
+        android:text="Llamar a servicio" />
     <!--<androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.example.loginuceva222.BlankFragment"

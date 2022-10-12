@@ -120,4 +120,10 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
             super.onCancelled();
         }
     }
+
+    public void iniciarServicio(View g){
+        Intent intentService = new Intent(this, MostrarDatosSegundoPlano.class);
+        startService(intentService);
+        //stopService(intentService);
+    }
 }
